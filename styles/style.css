@@ -102,15 +102,6 @@ ol {
   align-items: center;
 }
 
-.title {
-  font-family: Oswald;
-  font-size: 75px;
-  font-weight: 700;
-  line-height: 70.5px;
-  padding-top: 10px;
-  margin-bottom: 20px;
-}
-
 .content__list-container {
   height: 298px;
   overflow-y: scroll;
@@ -156,6 +147,8 @@ ol {
   font-weight: 700;
   line-height: 70.5px;
   text-transform: uppercase;
+  padding-top: 10px;
+  margin-bottom: 20px;
 }
 
 .content__accent {
@@ -247,10 +240,6 @@ fieldset {
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   display: block;
   background-color: #fff;
-}
-
-.search-form__label:hover {
-  text-decoration: underline;
 }
 
 .button {
