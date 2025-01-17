@@ -262,6 +262,7 @@ fieldset {
 .more-button {
   margin-top: 30px;
   padding: 6px 142px;
+  margin-bottom: 1px;
 }
 
 .button:focus {
